@@ -1,0 +1,16 @@
+Selected sequential recommendation research implementation
+
+This source snapshot includes adaptations of Hugging Face Transformers model
+and trainer methods. Applicable third-party material remains subject to the
+Apache License, Version 2.0, reproduced in licenses/Apache-2.0.txt.
+
+T5 implementation attribution from the upstream source:
+Copyright 2018 Mesh TensorFlow authors, T5 Authors and HuggingFace Inc. team.
+
+Upstream project: https://github.com/huggingface/transformers
+Source compatibility target: v4.52.3
+
+Research modifications were present in the supplied local research project.
+This snapshot extracts selected definitions, replaces project-wide imports,
+and omits unrelated or inactive code. See PROVENANCE.md for boundaries.
+No new license for the authors' research contributions is granted here.

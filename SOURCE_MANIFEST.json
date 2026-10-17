@@ -1,0 +1,163 @@
+[
+  {
+    "output": "sddrec_core/model.py",
+    "source": "baseline_model.py",
+    "symbol": "TIGER",
+    "source_lines": [
+      542,
+      747
+    ],
+    "source_sha256": "7a07027748332ea92da15b4b4c25e5fa04f38f06d20800738f1ad5555eac5fb6",
+    "retained_methods": null
+  },
+  {
+    "output": "sddrec_core/model.py",
+    "source": "baseline_model.py",
+    "symbol": "TIGERMultiToken",
+    "source_lines": [
+      752,
+      946
+    ],
+    "source_sha256": "7a07027748332ea92da15b4b4c25e5fa04f38f06d20800738f1ad5555eac5fb6",
+    "retained_methods": [
+      "__init__",
+      "forward"
+    ]
+  },
+  {
+    "output": "sddrec_core/model.py",
+    "source": "baseline_model.py",
+    "symbol": "TIGERMTPV1",
+    "source_lines": [
+      948,
+      1010
+    ],
+    "source_sha256": "7a07027748332ea92da15b4b4c25e5fa04f38f06d20800738f1ad5555eac5fb6",
+    "retained_methods": null
+  },
+  {
+    "output": "sddrec_core/data.py",
+    "source": "data.py",
+    "symbol": "SemanticsTokenDataset",
+    "source_lines": [
+      304,
+      426
+    ],
+    "source_sha256": "0d75a93e8c7d795c6cf9e7a823f3ea57daff6f1d2aaf15dea24785842c934c32",
+    "retained_methods": null
+  },
+  {
+    "output": "sddrec_core/data.py",
+    "source": "data.py",
+    "symbol": "MultiTokenDataset",
+    "source_lines": [
+      429,
+      461
+    ],
+    "source_sha256": "0d75a93e8c7d795c6cf9e7a823f3ea57daff6f1d2aaf15dea24785842c934c32",
+    "retained_methods": null
+  },
+  {
+    "output": "sddrec_core/data.py",
+    "source": "data.py",
+    "symbol": "SemanticsTokenCollator",
+    "source_lines": [
+      465,
+      508
+    ],
+    "source_sha256": "0d75a93e8c7d795c6cf9e7a823f3ea57daff6f1d2aaf15dea24785842c934c32",
+    "retained_methods": null
+  },
+  {
+    "output": "sddrec_core/data.py",
+    "source": "data.py",
+    "symbol": "MultiTokenCollator",
+    "source_lines": [
+      510,
+      540
+    ],
+    "source_sha256": "0d75a93e8c7d795c6cf9e7a823f3ea57daff6f1d2aaf15dea24785842c934c32",
+    "retained_methods": null
+  },
+  {
+    "output": "sddrec_core/trainer.py",
+    "source": "trainer_wx.py",
+    "symbol": "WXTrainer",
+    "source_lines": [
+      5,
+      328
+    ],
+    "source_sha256": "23e0194d482713b3f05db4445749e94f8b5249b9015c3449604f80c833731ee7",
+    "retained_methods": [
+      "set_hyper",
+      "compute_loss",
+      "prediction_step"
+    ]
+  },
+  {
+    "output": "sddrec_core/generation.py",
+    "source": "utils.py",
+    "symbol": "Trie",
+    "source_lines": [
+      49,
+      133
+    ],
+    "source_sha256": "8fe354944c92419b4f8d640860060d0becfe666c68bb9c3ca3ef6c657deb5358",
+    "retained_methods": null
+  },
+  {
+    "output": "sddrec_core/generation.py",
+    "source": "utils.py",
+    "symbol": "prefix_allowed_tokens_fn",
+    "source_lines": [
+      405,
+      412
+    ],
+    "source_sha256": "8fe354944c92419b4f8d640860060d0becfe666c68bb9c3ca3ef6c657deb5358",
+    "retained_methods": null
+  },
+  {
+    "output": "sddrec_core/generation.py",
+    "source": "utils.py",
+    "symbol": "get_topk_results",
+    "source_lines": [
+      428,
+      458
+    ],
+    "source_sha256": "8fe354944c92419b4f8d640860060d0becfe666c68bb9c3ca3ef6c657deb5358",
+    "retained_methods": null
+  },
+  {
+    "output": "sddrec_core/generation.py",
+    "source": "utils.py",
+    "symbol": "ndcg_k",
+    "source_lines": [
+      460,
+      471
+    ],
+    "source_sha256": "8fe354944c92419b4f8d640860060d0becfe666c68bb9c3ca3ef6c657deb5358",
+    "retained_methods": null
+  },
+  {
+    "output": "sddrec_core/generation.py",
+    "source": "utils.py",
+    "symbol": "hit_k",
+    "source_lines": [
+      473,
+      479
+    ],
+    "source_sha256": "8fe354944c92419b4f8d640860060d0becfe666c68bb9c3ca3ef6c657deb5358",
+    "retained_methods": null
+  },
+  {
+    "output": "sddrec_core/generation.py",
+    "source": "utils.py",
+    "symbol": "get_metrics_results",
+    "source_lines": [
+      481,
+      494
+    ],
+    "source_sha256": "8fe354944c92419b4f8d640860060d0becfe666c68bb9c3ca3ef6c657deb5358",
+    "retained_methods": null
+  }
+]

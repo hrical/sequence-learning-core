@@ -1,0 +1,22 @@
+{
+  "dataset": "Instruments",
+  "data_path": "./data",
+  "max_his_len": 20,
+  "model_code": "TIGERMTPV1",
+  "temperature": 1.0,
+  "sem_token_len": 4,
+  "multi_token_num": 2,
+  "multi_token_loss_lambda": [
+    1.0,
+    1.0
+  ],
+  "mtp_num_decoder_layers": 1,
+  "noise_filter_eta": 0.0,
+  "noise_filter_eta_list": [
+    0.0,
+    0.0
+  ],
+  "noise_filter_start_epoch": 0,
+  "seqlabel_2_score_dict_path": null,
+  "rho_save_ration": 0.25
+}
